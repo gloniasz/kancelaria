@@ -1,0 +1,40 @@
+.color-green:hover{
+    /* color: rgb(50, 80, 56); */
+    color: rgb(25, 74, 44);
+}
+.color-green{
+    color: rgb(54, 86, 62);
+}
+
+
+.contact-bar{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.contact-options{
+    
+}
+
+.langs{
+    
+}
+
+svg{
+    margin: 2px;
+}
+
+.landing-box{
+    background-image: url("../assets/obrazek-nav.jpg");
+    background-repeat: round;
+}
+.landing-box:before{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.landing-font{
+    color: #ffffff;
+}
