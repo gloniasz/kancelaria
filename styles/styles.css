@@ -1,6 +1,17 @@
+
+/*color: rgb(0, 138, 92); /* logo dark green */
+/*color: rgb(60, 165, 118); /* logo light green */
+/*color: rgb(145, 143, 144); /* logo gray */
+/*color: rgb(25, 74, 44); /* the green i liked */ 
+/*color: rgb(50, 80, 56); */
+/*color: rgb(168, 216, 114); */
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 .contact-color:hover{
-    /* color: rgb(50, 80, 56); */
-    /* color: rgb(168, 216, 114); */
     opacity: 0.5;
 }
 .contact-color{
@@ -11,11 +22,27 @@
 .contact-bar{
     padding-left: 1%;
     padding-right: 1%;
-    background-color: rgb(25, 74, 44);
+    background-color: rgb(0, 138, 92);
 }
 .contact-options svg{
     margin: 5px;
 }
+
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(145, 143, 144);
+    margin: 0em;
+}
+
+.logo-up{
+    font-size: 75%;
+}
+
+.logo-down{
+    font-size: 125%;
+    margin-top: -0.5em;
+}
+
 .langs svg{
     margin: 2px;
 }
@@ -25,7 +52,7 @@
 
 .landing-box{
     background-image: url("../assets/obrazek-nav.jpg");
-    background-repeat: round;
+    background-size: cover;
 }
 .landing-box:before{
     content: "";
@@ -38,25 +65,80 @@
     color: rgb(255, 255, 255);
 }
 
+.logo-landing{
+    align-content: center;
+    width: 70%;
+    margin-bottom: -2em;
+}
+
 .btn-specialize{
-    background-color: rgba(25, 74, 44, 0.5);
-    color: rgba(255, 255, 255,0.5);
+    background-color: rgba(0, 138, 92, 0.7);
+    color: rgba(255, 255, 255, 0.5);
     border-width: 1px;
     border-color: rgba(0, 0, 0, 0.5)
 }
 
 .btn-specialize:hover{
-    background-color: rgba(25, 74, 44, 1);
+    color: rgba(60, 165, 118, 1); 
     color: rgb(255, 255, 255);
     border-width: 1px;
-    border-color: rgba(255, 255, 255, 1)
+    border-color: rgba(145, 143, 144, 1);
+}
+
+.nowrap {
+    white-space: nowrap;
 }
 
 .service-pict{
-    color: rgb(25, 74, 44);
-    width: 60%;
-    height: 60%;
+    align-content: center;
+    height: 50%;
 }
 .service-pict:hover{
     opacity: 0.5;
 }
+
+.heading{
+    margin: 3em;;
+}
+
+.gmap{
+    height: 100%;
+    margin-left: -1%;
+    /* padding-bottom: 1.5em; */
+}
+
+.footer-bar{
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgb(0, 138, 92);
+    color: rgb(255, 255, 255);
+    align-content: center;
+}
+
+.footer{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-logo-up{
+    font-size: 150%;
+}
+
+.footer-logo-down{
+    font-size: 250%;
+    margin-top: -0.6em;
+    line-height: 90%;
+}
+
+
+.footer-bar a{
+    color: rgb(255, 255, 255);
+}
+
+.footer-logo{
+    max-width: 100%;
+}
+
+* {
+    font-size: 100%;
+   }
