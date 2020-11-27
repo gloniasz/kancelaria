@@ -110,82 +110,93 @@
             </div>
         </nav>
     </div>
-    <div class="row position-relative overflow-hidden p-3 p-md-5 text-center bg-light landing-box">
-        <div class="col-md-12 p-lg-5 mx-auto my-5">
-            <!-- <h1 class="display-5 font-weight-normal landing-font">
-                Kancelaria Adwokacka
-            </h1>
-            <h2 class="display-6 font-weight-normal landing-font">
-                Adwokat <span class="nowrap">Marta Wieczorek</span>
-            </h2> -->
-            <img src="assets/logo-white-napis.svg" alt="" class="logo-landing">
-            <br>
-            <a class="btn btn-specialize mt-5" href="#service">Specjalizacje</a>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <!-- Note the `embed-responsive embed-responsive-21by9` classes on the items wrapper -->
+        <div class="carousel-inner embed-responsive embed-responsive-21by9">
+            <!-- Carousel items have `.embed-responsive-item` -->
+            <div class="carousel-item embed-responsive-item active bg-light" style="background-image:url('assets/nav-images/obrazek-nav1.jpg')">
+                <div class="col-md-8 h-100 m-auto align-middle">
+                    <img src="assets/logo-white-napis.svg" alt="" class="logo-landing h-50">
+                    <br>
+                    <a class="btn btn-specialize mt-5" href="#service">Specjalizacje</a>
+                </div>
+            </div>
+
+            <div class="carousel-item embed-responsive-item" style="background-image:url('assets/nav-images/obrazek-nav2.jpg')">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="row heading">
+        <div class="col-md-3 mx-auto text-center">
+            <h3 id="service">
+                Specjalizacje
+            </h3>
+
+            <p>
+                Nasza kancelaria specjalizuje się <span class="nowrap">w sprawach</span>:
+            </p>
         </div>
     </div>
-    <div class="p-5">
-        <div class="row heading">
-            <div class="col-md-3 mx-auto text-center">
-                <h3 id="service">
-                    Specjalizacje
-                </h3>
-
-                <p>
-                    Nasza kancelaria specjalizuje się <span class="nowrap">w sprawach</span>:
-                </p>
-            </div>
+    <div class="row services">
+        <div class="col-md-3 mx-auto service-box">
+            <a href="#">
+                <div class="service-logo col-8">
+                    <img src="assets/mlotek.svg"><br>
+                </div>
+                <h5 class="service-header">Prawo Karne</h5>
+            </a>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus dolore earum officiis a numquam doloremque voluptatum aliquam assumenda sequi odit aut architecto, atque vitae consequuntur commodi aliquid quis qui dolor.</p>
         </div>
-        <div class="row services">
-            <div class="col-md-3 mx-auto service-box">
-                <a href="#">
-                    <div class="service-logo col-8">
-                        <img src="assets/mlotek.svg"><br>
-                    </div>
-                    <h5 class="service-header">Prawo Karne</h5>
-                </a>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus dolore earum officiis a numquam doloremque voluptatum aliquam assumenda sequi odit aut architecto, atque vitae consequuntur commodi aliquid quis qui dolor.</p>
-            </div>
-            <div class="col-md-3 mx-auto service-box">
-                <a href="#">
-                    <div class="service-logo col-8">
-                        <img src="assets/waga.svg"><br>
-                    </div>
-                    <h5 class="service-header">Prawo Rodzinne</h5>
-                </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos asperiores dolorum, libero, minima repellat, quasi esse temporibus error excepturi rerum corporis. Ut a at, beatae exercitationem odio deleniti deserunt ratione?</p>
-            </div>
-            <div class="col-md-3 mx-auto service-box">
-                <a href="#">
-                    <div class="service-logo col-8">
-                        <img src="assets/umowa.svg"><br>
-                    </div>
-                    <h5 class="service-header">Umowy</h5>
-                </a>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, deleniti, earum laborum quisquam, quo numquam impedit beatae eos laudantium cumque amet accusamus tempore voluptate temporibus dicta aliquam omnis harum quae!</p>
-            </div>
+        <div class="col-md-3 mx-auto service-box">
+            <a href="#">
+                <div class="service-logo col-8">
+                    <img src="assets/waga.svg"><br>
+                </div>
+                <h5 class="service-header">Prawo Rodzinne</h5>
+            </a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos asperiores dolorum, libero, minima repellat, quasi esse temporibus error excepturi rerum corporis. Ut a at, beatae exercitationem odio deleniti deserunt ratione?</p>
         </div>
+        <div class="col-md-3 mx-auto service-box">
+            <a href="#">
+                <div class="service-logo col-8">
+                    <img src="assets/umowa.svg"><br>
+                </div>
+                <h5 class="service-header">Umowy</h5>
+            </a>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, deleniti, earum laborum quisquam, quo numquam impedit beatae eos laudantium cumque amet accusamus tempore voluptate temporibus dicta aliquam omnis harum quae!</p>
+        </div>
+    </div>
 
 
-        <div class="row">
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nisi nostrum minima quae. Omnis debitis, ea aliquam, dolor atque nam repellat, illum officiis accusamus mollitia dolorem modi reprehenderit. Beatae, impedit!
-            </p>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nisi nostrum minima quae. Omnis debitis, ea aliquam, dolor atque nam repellat, illum officiis accusamus mollitia dolorem modi reprehenderit. Beatae, impedit!
-            </p>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nisi nostrum minima quae. Omnis debitis, ea aliquam, dolor atque nam repellat, illum officiis accusamus mollitia dolorem modi reprehenderit. Beatae, impedit!
-            </p>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nisi nostrum minima quae. Omnis debitis, ea aliquam, dolor atque nam repellat, illum officiis accusamus mollitia dolorem modi reprehenderit. Beatae, impedit!
-            </p>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nisi nostrum minima quae. Omnis debitis, ea aliquam, dolor atque nam repellat, illum officiis accusamus mollitia dolorem modi reprehenderit. Beatae, impedit!
-            </p>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nisi nostrum minima quae. Omnis debitis, ea aliquam, dolor atque nam repellat, illum officiis accusamus mollitia dolorem modi reprehenderit. Beatae, impedit!
-            </p>
-        </div>
+    <div class="row">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nisi nostrum minima quae. Omnis debitis, ea aliquam, dolor atque nam repellat, illum officiis accusamus mollitia dolorem modi reprehenderit. Beatae, impedit!
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nisi nostrum minima quae. Omnis debitis, ea aliquam, dolor atque nam repellat, illum officiis accusamus mollitia dolorem modi reprehenderit. Beatae, impedit!
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nisi nostrum minima quae. Omnis debitis, ea aliquam, dolor atque nam repellat, illum officiis accusamus mollitia dolorem modi reprehenderit. Beatae, impedit!
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nisi nostrum minima quae. Omnis debitis, ea aliquam, dolor atque nam repellat, illum officiis accusamus mollitia dolorem modi reprehenderit. Beatae, impedit!
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nisi nostrum minima quae. Omnis debitis, ea aliquam, dolor atque nam repellat, illum officiis accusamus mollitia dolorem modi reprehenderit. Beatae, impedit!
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nisi nostrum minima quae. Omnis debitis, ea aliquam, dolor atque nam repellat, illum officiis accusamus mollitia dolorem modi reprehenderit. Beatae, impedit!
+        </p>
+    </div>
     </div>
     <div class="row position-relative overflow-hidden">
         <div class="col-12 m-0 p-0 h-100">

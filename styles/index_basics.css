@@ -65,8 +65,23 @@ html {
     opacity: 0.5;
 }
 
+.carousel-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carousel-item:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
 .landing-box {
-    background-image: url("../assets/nav-images/obrazek-nav1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -88,7 +103,6 @@ html {
 
 .logo-landing {
     align-content: center;
-    width: 70%;
     margin-bottom: -2em;
 }
 
@@ -166,5 +180,17 @@ html {
 }
 
 * {
+    /* font-family: 'Times New Roman', Times, serif; */
     font-size: 100%;
+}
+
+.carousel .item {
+    height: 300px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }
