@@ -134,13 +134,30 @@ html {
     white-space: nowrap;
 }
 
-.service-pict {
-    align-content: center;
-    height: 50%;
+.service-box {
+    align-self: center;
 }
 
-.service-pict:hover {
+.service-logo {
+    align-self: center;
+    width: max-content;
+    margin: auto;
+}
+
+.service-logo:hover {
     opacity: 0.5;
+}
+
+.service-box a {
+    color: rgb(0, 138, 92);
+    text-align: center;
+}
+
+.service-box p {
+    font-family: Calibri;
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .heading {
@@ -188,10 +205,6 @@ html {
 * {
     /* font-family: 'Times New Roman', Times, serif; */
     font-size: 100%;
-}
-
-.carousel .item {
-    height: 300px;
 }
 
 .item img {
