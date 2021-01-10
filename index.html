@@ -114,15 +114,23 @@
         <!-- Note the `embed-responsive embed-responsive-21by9` classes on the items wrapper -->
         <div class="carousel-inner embed-responsive embed-responsive-21by9">
             <!-- Carousel items have `.embed-responsive-item` -->
-            <div class="carousel-item embed-responsive-item active bg-light" style="background-image:url('assets/nav-images/obrazek-nav1.jpg')">
-                <div class="col-md-8 h-100 m-auto align-middle">
-                    <img src="assets/logo-white-napis.svg" alt="" class="logo-landing h-50">
-                    <br>
-                    <a class="btn btn-specialize mt-5" href="#service">Specjalizacje</a>
+            <div class="carousel-item embed-responsive-item active bg-light d-flex" style="background-image:url('assets/nav-images/obrazek-nav1.jpg')">
+                <div class="col-6 h-100 m-auto text-center d-flex align-items-center">
+                    <div>
+                        <img src="assets/logo-white-napis.svg" alt="" class="logo-landing w-100 h-100">
+                        <a class="btn-sm btn-specialize mt-5 d-none d-sm-inline-block" href="#service">Specjalizacje</a>
+                    </div>
                 </div>
             </div>
 
             <div class="carousel-item embed-responsive-item" style="background-image:url('assets/nav-images/obrazek-nav2.jpg')">
+                <div class="col-6 h-100 m-auto text-center d-flex align-items-center">
+                    <div>
+                        <h1 class="landing-text">
+                            Witam na stronie mojej kancelarii i zapraszam do zapoznania się z przygotowanymi przeze mnie materiałami oraz ofertą.
+                        </h1>
+                    </div>
+                </div>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -257,7 +265,8 @@
                     </a>
                 </div>
                 <div class="col-md-11 col-10">
-                    <strong>Numer telefonu:</strong><br> (+48) 605 529 458
+                    <strong>Numer telefonu:</strong><br> <a href="tel:+48 604 833 415">(+48) 605 529 458
+                        
                 </div>
             </div>
             <div class="row">
@@ -270,7 +279,8 @@
                     </a>
                 </div>
                 <div class="col-md-11 col-10">
-                    <strong>Adres e-mail</strong><br> marta.wieczorek@adwokatura.pl
+                    <strong>Adres e-mail</strong><br>
+                    <a href="mailto:marta.wieczorek@adwokatura.pl"> marta.wieczorek@adwokatura.pl</a>
                 </div>
             </div>
         </div>
