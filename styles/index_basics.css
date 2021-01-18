@@ -162,7 +162,7 @@ html {
 
 .heading {
     margin: 3em;
-    ;
+    margin-bottom: 0em;
 }
 
 #gmap {
@@ -213,3 +213,12 @@ html {
     left: 0;
     min-height: 300px;
 }
+
+.content {
+    padding: 2em;
+    padding-bottom: 0em;
+}
+
+.content p {
+    text-align: justify;
+} 
